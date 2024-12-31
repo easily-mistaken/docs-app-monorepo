@@ -19,3 +19,4 @@ jobs:
           run: docker login -u 100xdevs -p ${{ secrets.DOCKERHUB_PASSWORD }}
         - name: Push docker image
           run: docker push 100xdevs/gdocs-fe:${{ github.sha }}
+// test
