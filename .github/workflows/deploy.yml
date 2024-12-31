@@ -18,5 +18,5 @@ jobs:
       - name: Login to dockerhub
         run: docker login -u easilymistaken -p ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: Push docker image
-        run: docker push 100xdevs/gdocs-fe:${{ github.sha }}
-# test2
+        run: docker push easily-mistaken/gdocs-fe:${{ github.sha }}
+# test3
